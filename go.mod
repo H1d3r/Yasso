@@ -1,6 +1,6 @@
 module Yasso
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/audibleblink/bamflags v1.0.0
@@ -8,7 +8,6 @@ require (
 	github.com/denisenkom/go-mssqldb v0.12.0
 	github.com/go-ping/ping v0.0.0-20211130115550-779d1e919534
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/go-rod/rod v0.107.0
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gookit/color v1.5.0
 	github.com/huin/asn1ber v0.0.0-20120622192748-af09f62e6358
@@ -20,8 +19,8 @@ require (
 	github.com/projectdiscovery/cdncheck v0.0.3
 	github.com/spf13/cobra v1.4.0
 	github.com/stacktitan/smb v0.0.0-20190531122847-da9a425dceb8
-	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
-	golang.org/x/text v0.3.7
+	golang.org/x/crypto v0.35.0
+	golang.org/x/text v0.22.0
 	gopkg.in/ldap.v2 v2.5.1
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
 )
@@ -54,13 +53,10 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	github.com/yl2chen/cidranger v1.0.2 // indirect
-	github.com/ysmood/goob v0.4.0 // indirect
-	github.com/ysmood/gson v0.7.1 // indirect
-	github.com/ysmood/leakless v0.7.0 // indirect
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
-	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 )
 
